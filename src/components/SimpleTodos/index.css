@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.simple-todo-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Roboto;
+  max-width: 600px;
+  margin: auto;
+  overflow: auto;
+}
+
+.heading {
+  color: #ff0b37;
+  text-align: center;
+}
+
+.todos-list {
+  list-style-type: none;
+  padding: 0;
+  background-color: white;
+}

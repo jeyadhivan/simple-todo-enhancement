@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-title {
+  color: #000;
+}
+
+.delete-button {
+  background-color: white;
+  height: 30px;
+  color: #ff0b37;
+  border: 1px solid #ff0b37;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  align-self: center;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
