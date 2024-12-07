@@ -21,10 +21,30 @@
   cursor: pointer;
   border-radius: 4px;
   align-self: center;
+  margin-left: 5px;
 }
 
 .cont {
   display: flex;
   justify-content: space-between;
   width: 600px;
+}
+.btn-card {
+  display: flex;
+  align-items: center;
+}
+.title-card {
+  display: flex;
+}
+.check-box {
+  border: 2px solid red;
+  outline: none;
+  width: 15px;
+  height: 15px;
+  align-self: center;
+  margin-right: 20px;
+}
+.completed .todo-title {
+  text-decoration: line-through;
+  color: #888;
 }
