@@ -1,7 +1,7 @@
 import './index.css'
 import {useState} from 'react'
 
-const TodoItem = ({todo, deleteTodo, saveEdit, toggleComplete}) => {
+function TodoItem({todo, deleteTodo, saveEdit, toggleComplete}) {
   const {id, title, completed} = todo
   const [isEditing, setIsEditing] = useState(false)
   const [editValue, setEditValue] = useState(title)
